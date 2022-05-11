@@ -1,0 +1,84 @@
+{
+    "/dev/loop0": {
+        "partitions": [
+            {
+                "boot": true,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "fat32"
+                },
+                "wipe": true,
+                "mountpoint": "/boot",
+                "size": "513MB",
+                "start": "5MB",
+                "type": "primary"
+            },
+            {
+                "btrfs": {
+                    "subvolumes": {
+                        "@.snapshots": "/.snapshots",
+                        "@home": "/home",
+                        "@log": "/var/log",
+                        "@pkgs": "/var/cache/pacman/pkg"
+                    }
+                },
+                "encrypted": true,
+                "filesystem": {
+                    "format": "btrfs"
+                },
+                "wipe": true,
+                "mountpoint": "/",
+                "size": "100%",
+                "start": "518MB",
+                "type": "primary"
+            }
+        ],
+        "wipe": true
+    },
+
+    "!root-password": "qwerty",
+	"!users": {
+		"username": {"!password": "123456"}
+	},
+	"!superusers": {
+		"admin": {"!password": "654321"}
+	},
+
+    "audio": "pipewire",
+    "desktop-environment": "kde",
+    "bootloader": "grub-install",
+    "harddrives": [
+        "/dev/loop0"
+    ],
+    "hostname": "themedlebpc",
+    "kernels": [
+        "linux"
+    ],
+    "archinstall-language": "English",
+    "keyboard-layout": "us",
+    "sys-encoding": "utf-8",
+    "sys-language": "en_US",
+    "timezone": "America/Chicago",
+    "mirror-region": "Worldwide",
+    "nic": {
+        "NetworkManager": true,
+        "type": "network_manager"
+    },
+    "ntp": true,
+    "packages": [
+        "git",
+        "zsh"
+    ],
+    "profile": null,
+    "script": "guided",
+    "silent": false,
+    "swap": true,
+    "dry_run": false,
+    "debug": false,
+    "gfx_driver": "VMware / VirtualBox (open-source)",
+
+    "services": [
+        "NetworkManager.service"
+      ]
+    
+}
