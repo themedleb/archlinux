@@ -17,4 +17,4 @@ echo 1 # bootable partition is partition 1 -- /dev/sda1
 echo p # print the in-memory partition table
 echo w # Write changes
 echo q # and we're done
-) | sudo fdisk
+) | fdisk /dev/sda
