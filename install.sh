@@ -1,5 +1,7 @@
 #!/bin/bash 
 
+# Partitioning:
+
 (
 echo o # Create a new empty DOS partition table
 echo n # Add a new partition
@@ -18,3 +20,5 @@ echo p # print the in-memory partition table
 echo w # Write changes
 echo q # Quit
 ) | fdisk /dev/vda
+
+mkfs.fat -F32 -n EFI /dev/vda1
