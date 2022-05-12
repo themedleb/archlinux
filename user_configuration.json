@@ -103,7 +103,8 @@
         "pipewire.service",
         "pipewire-pulse.service",
         "pipewire-media-session.service",
-        "fstrim.timer"
+        "fstrim.timer",
+        "docker.service"
         ],
     "version": "2.4.2"
 }
