@@ -155,7 +155,7 @@
                         "@pkg": "/var/cache/pacman/pkg"
                     }
                 },
-                "encrypted": true,
+                "encrypted": false,
                 "filesystem": {
                     "format": "btrfs",
                     "mount_options": [
