@@ -149,7 +149,7 @@
                 "btrfs": {
                     "subvolumes": {
                         "@": "/",
-                        "@snapshots": "/.snapshots",
+                        "@.snapshots": "/.snapshots",
                         "@home": "/home",
                         "@log": "/var/log",
                         "@pkg": "/var/cache/pacman/pkg"
