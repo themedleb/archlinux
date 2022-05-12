@@ -25,7 +25,7 @@
     "ntp": true,
     "plugin": null,
     "profile": {
-        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/desktop.py"
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
     },
     "script": "guided",
     "silent": false,
