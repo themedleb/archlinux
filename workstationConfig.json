@@ -162,7 +162,7 @@
                         "compress=zstd"
                     ]
                 },
-                "mountpoint": "/",
+                "mountpoint": null,
                 "size": "100%",
                 "start": "513MiB",
                 "type": "primary",
