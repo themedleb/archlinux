@@ -6,7 +6,7 @@ read -p "Hostname: " hostname
 read -p "Root password: " rootPassword
 read -p "Username: " userName
 read -p "User password: " userPassword
-read -p "User graphics driver ('amd' or 'intel' or 'nvidia' or 'allopensource' default is 'vm'): " graphicsDriver
+read -p "Graphics driver ('amd' or 'intel' or 'nvidia' or 'allopensource' default is 'vm'): " graphicsDriver
 
 if [[ $graphicsDriver == 'amd' ]]
 then
