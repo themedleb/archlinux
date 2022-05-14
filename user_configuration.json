@@ -9,7 +9,7 @@
     ],
     "gfx_driver": "VMware / VirtualBox (open-source)",
     "harddrives": [
-        "/dev/vda"
+        "/dev/sdb"
     ],
     "hostname": "",
     "mirror-region": "United States",
