@@ -1,5 +1,5 @@
 {
-    "/dev/vda": {
+    "/dev/sdb": {
         "partitions": [
             {
                 "boot": true,
@@ -17,20 +17,20 @@
                 "btrfs": {
                     "subvolumes": {
                         "@": "/",
-                        "@snapshots": "/.snapshots",
+                        "@.snapshots": "/.snapshots",
                         "@home": "/home",
                         "@log": "/var/log",
                         "@pkg": "/var/cache/pacman/pkg"
                     }
                 },
-                "encrypted": true,
+                "encrypted": false,
                 "filesystem": {
                     "format": "btrfs",
                     "mount_options": [
                         "compress=zstd"
                     ]
                 },
-                "mountpoint": "/",
+                "mountpoint": null,
                 "size": "100%",
                 "start": "513MiB",
                 "type": "primary",
