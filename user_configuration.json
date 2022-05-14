@@ -11,8 +11,8 @@
     "harddrives": [
         "/dev/vda"
     ],
-    "hostname": "thmdlbpc",
-    "mirror-region": "Worldwide",
+    "hostname": "",
+    "mirror-region": "United States",
     "mount_point": null,
     "nic": {
         "dhcp": true,
@@ -72,7 +72,6 @@
         "bluez-utils",
         "pipewire-pulse",
         "alsa-utils",
-        "pipewire",
         "pipewire-alsa",
         "pipewire-jack",
         "kcharselect",
