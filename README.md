@@ -1,4 +1,4 @@
-# Don forget to change:
+# Don't forget to change:
 
 ## In the `user_configuration.json` file:
 1. Hostname
