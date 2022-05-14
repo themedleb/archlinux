@@ -17,13 +17,13 @@
                 "btrfs": {
                     "subvolumes": {
                         "@": "/",
-                        "@.snapshots": "/.snapshots",
+                        "@snapshots": "/.snapshots",
                         "@home": "/home",
                         "@log": "/var/log",
                         "@pkg": "/var/cache/pacman/pkg"
                     }
                 },
-                "encrypted": false,
+                "encrypted": true,
                 "filesystem": {
                     "format": "btrfs",
                     "mount_options": [
