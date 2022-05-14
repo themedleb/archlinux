@@ -67,7 +67,7 @@
         "git",
         "youtube-dl",
         "net-tools",
-        "dnsutils",
+        "bind",
         "bpytop",
         "bluez",
         "bluez-utils",
