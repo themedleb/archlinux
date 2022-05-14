@@ -99,7 +99,6 @@
         "NetworkManager.service",
         "gdm.service",
         "bluetooth.service",
-        "pipewire.service",
         "pipewire-pulse.service",
         "pipewire-media-session.service",
         "fstrim.timer",
