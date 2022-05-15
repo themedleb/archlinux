@@ -1,5 +1,5 @@
 {
-    "/dev/sdb": {
+    "": {
         "partitions": [
             {
                 "boot": true,
