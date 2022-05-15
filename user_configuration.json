@@ -4,7 +4,6 @@
     "config_version": "2.4.2",
     "debug": false,
     "custom-commands": [
-        "useradd -m thmdlb",
         "echo 'vm.swappiness=1' | sudo tee /etc/sysctl.d/10-swappiness.conf",
         "flatpak install flathub org.libreoffice.LibreOffice org.kde.ark org.telegram.desktop org.keepassxc.KeePassXC org.openshot.OpenShot com.obsproject.Studio org.chromium.Chromium org.filezillaproject.Filezilla org.kde.krita org.inkscape.Inkscape org.gnome.Boxes org.kde.dolphin org.kde.elisa org.kde.kdenlive org.videolan.VLC org.kde.okular org.kde.gwenview org.mozilla.firefox com.vscodium.codium md.obsidian.Obsidian com.github.marktext.marktext"
     ],
